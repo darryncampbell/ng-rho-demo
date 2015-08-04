@@ -1,0 +1,34 @@
+---
+sdkversion: 5.1.0
+name: ng-rho-demo
+version: '1.0'
+vendor: rhomobile
+build: debug
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator8.2
+  provisionprofile: ''
+  codesignidentity: iPhone Developer
+  entitlements: ''
+  BundleIdentifier: com.rhomobile.ng-rho-demo
+  BundleURLScheme: ng-rho-demo
+  production:
+    ipa_itunesartwork_image: ./production/iTunesArtwork.png
+wp8:
+  productid: e364e021-1cba-0133-b545-00155d6cccb2
+android:
+  version: 2.3.3
+  logcatFilter: APP:I StrictMode:I DEBUG:I *:E
+  android_title: 0
+wm: ''
+win32:
+  deployqt: '1'
+  deploymsvc: '1'
+extensions:
+- rhoconnect-client
+rhobundle:
+  exclude_items:
+  - thumb.db
+app_type: rhoelements
+capabilities: []

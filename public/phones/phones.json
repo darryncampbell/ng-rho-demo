@@ -1,0 +1,42 @@
+[
+    {
+        "age": 0, 
+        "id": "et1", 
+        "imageUrl": "img/devices/et1.png", 
+        "name": "ET1 Enterprise Tablet", 
+        "snippet": "Looking for a true enterprise-class tablet that you can deploy anywhere? The ET1 offers everything you need.",
+        "detail": "Looking for a true enterprise-class tablet that you can deploy anywhere? The ET1 offers everything you need, from security and durability to flexibility and manageability. With WLAN or WWAN connectivity, you can count on the ET1 to deliver all the information your workforce needs to get the job done, whether they are inside the four walls or out in the field."
+    }, 
+    {
+        "age": 1, 
+        "id": "mc40", 
+        "imageUrl": "img/devices/mc40.jpg", 
+        "name": "MC40 Touch Computer", 
+        "snippet": "Empower your associates to deliver service that will impress today's demanding and technology savvy customers with the MC40.",
+        "detail": "Empower your associates to deliver service that will impress today's demanding and technology savvy customers with the MC40. Zebra offers a cool, sleek design that rivals the most popular consumer-style products on the outside and is pure business on the inside — enterprise-class durability, security and a comprehensive set of features including advanced barcode scanning, push-to-talk and an integrated magnetic stripe reader.  The result? Associates can look up the answer to practically any product question on this handheld mobile computer, present product comparisons to help with a buying decision, place an order for next day delivery or in-store pick-up and ring up a sale — all without ever walking away from the customer."
+    }, 
+    {
+        "age": 2, 
+        "id": "tc55", 
+        "imageUrl": "img/devices/tc55.png", 
+        "name": "TC55 Touch Computer", 
+        "snippet": "To get the job done, your workers need rugged, reliable, remote access to real-time data.",
+        "detail": "To get the job done, your workers need rugged, reliable, remote access to real-time data. While personal smartphones, tablets and laptops may be attractive and easy to use, they do not have the durability or functionality necessary for everyday business use.  This pocket-sized, all-touch computer has it all. The TC55 Touch Computer capitalizes on the latest technological advancements, aesthetic appeal and usability of popular personal devices. But unlike its consumer-grade counterparts, it has integrated data capture capabilities and is built to withstand the wear and tear of industrial environments, so it's less likely to fail in the field. Fewer failures mean less downtime, and most importantly, higher productivity and profitability."
+    }, 
+    {
+        "age": 3, 
+        "id": "mc40hc", 
+        "imageUrl": "img/devices/mc40hc.png", 
+        "name": "MC40-HC Touch Computer for HealthCare", 
+        "snippet": "Your healthcare staff wants the latest in mobile technology, and a device that is as easy to use as their own smartphone.",
+        "detail": "Your healthcare staff wants the latest in mobile technology, and a device that is as easy to use as their own smartphone. Your healthcare organization requires an enterprise-class feature set, from data capture and security to manageability and dependably robust wireless connections. Get it all with the MC40-HC, including Android, the most popular mobile operating system in the world; world-class enterprise data capture capabilities; and Extensions (Mx), which adds enterprise-required features that are missing from standard Android. The MC40-HC empowers your healthcare staff to deliver the best possible patient care."
+    }, 
+    {
+        "age": 4,  
+        "id": "tc70", 
+        "imageUrl": "img/devices/tc70.png", 
+        "name": "TC70 TC75 Touch Computer", 
+        "snippet": "Work more efficiently and better serve your customers by giving your employees enterprise-class handheld computers that survive life in the field or shop floor.",
+        "detail": "Work more efficiently and better serve your customers by giving your employees enterprise-class handheld computers that survive life in the field or shop floor, communicate and access information in real time - yet are every bit as refined as a consumer device. The TC70/TC75 is the professional-grade Android device built from the ground up for the enterprise.  4G/LTE (TC75 only) and 8.02.11a/b/g/n connectivity for anywhere, anytime access to information.  Zebra's Mobility Extensions (Mx).  Mobility DNA, a suite of mobility enabling applications, development tools and utilities.  Most advanced scan engine with longer range date capture capability.  Rugged and ready for every day enterprise use inside and outside the four walls."
+    }
+]

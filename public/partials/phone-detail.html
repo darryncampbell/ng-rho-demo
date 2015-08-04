@@ -1,0 +1,27 @@
+<h2>{{phone.name}}</h2>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2">
+		<div class="phone-images">
+		  <img ng-src="{{phone.imageUrl}}"
+			   class="phone" alt="Device Image">
+		</div>
+	</div>
+	<div class="col-sm-10">
+		<p>{{phone.detail}}</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-10">
+	<H2>Scan Barcodes:</H2>
+		<ul>
+        <li ng-repeat="barcode in barcodes">
+          <p>{{barcode.data | barcodefilter}}</p>
+        </li>
+      </ul>
+
+</div>
+</div>
+</div>
+
