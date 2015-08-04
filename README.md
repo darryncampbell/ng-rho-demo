@@ -7,7 +7,8 @@ This RhoElements application makes use of Angular and is largely based on the of
 
 ##Pre-Requisites
 
-- NodeJS
+- NodeJS & NPM
+- Bower (npm install -g bower)
 - RhoElements 5.1
 
 ## Instructions
