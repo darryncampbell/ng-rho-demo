@@ -4,7 +4,7 @@ body {
   padding-top: 20px;
 }
 
-.phones {
+.devices {
   list-style: none;
 }
 
@@ -16,7 +16,7 @@ body {
   width: 100px;
 }
 
-.phones li {
+.devices li {
   clear: both;
   height: 180px;
   padding-top: 15px;

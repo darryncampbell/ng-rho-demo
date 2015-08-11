@@ -17,11 +17,11 @@
     <div class="col-sm-12">
       <!--Body content-->
 
-      <ul class="phones">
-        <li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
-          <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
-          <a href="#/phones/{{phone.id}}">{{phone.name}}</a>
-          <p>{{phone.snippet}}</p>
+      <ul class="devices">
+        <li ng-repeat="device in devices | filter:query | orderBy:orderProp" class="thumbnail">
+          <a href="#/devices/{{device.id}}" class="thumb"><img ng-src="{{device.imageUrl}}"></a>
+          <a href="#/devices/{{device.id}}">{{device.name}}</a>
+          <p>{{device.snippet}}</p>
         </li>
       </ul>
 

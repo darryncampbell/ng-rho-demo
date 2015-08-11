@@ -2,24 +2,24 @@
 
 /* App Module */
 
-var phonecatApp = angular.module('phonecatApp', [
+var zebraDeviceApp = angular.module('zebraDeviceApp', [
   'ngRoute',
-  'phonecatControllers',
+  'zebraDeviceControllers',
   'rhoBarcodeFilters'
 ]);
 
-phonecatApp.config(['$routeProvider',
+zebraDeviceApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/phones', {
-        templateUrl: 'partials/phone-list.html',
-        controller: 'PhoneListCtrl'
+      when('/devices', {
+        templateUrl: 'partials/device-list.html',
+        controller: 'DeviceListCtrl'
       }).
-      when('/phones/:phoneId', {
-        templateUrl: 'partials/phone-detail.html',
-        controller: 'PhoneDetailCtrl'
+      when('/devices/:deviceId', {
+        templateUrl: 'partials/device-detail.html',
+        controller: 'DeviceDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/phones'
+        redirectTo: '/devices'
       });
   }]);
